@@ -2325,6 +2325,12 @@
 		(uuid "709f943a-5b9e-4550-b6cf-ff56a89c720d")
 	)
 	(junction
+		(at 76.2 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7257d0fe-a06f-4347-a94d-086e8292f241")
+	)
+	(junction
 		(at 63.5 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2413,12 +2419,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ba44c042-4bef-49f6-81ca-1c639262fde9")
-	)
-	(junction
-		(at 76.2 107.95)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c47e4404-f773-4c29-99f6-da8c39d3fad6")
 	)
 	(junction
 		(at 82.55 165.1)
@@ -2853,6 +2853,16 @@
 			(type default)
 		)
 		(uuid "2963f7ae-af6c-4074-aaaa-e51e19516a67")
+	)
+	(wire
+		(pts
+			(xy 63.5 107.95) (xy 76.2 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b38ade1-3365-4577-a73f-1a74a7bcd75a")
 	)
 	(wire
 		(pts
@@ -3966,16 +3976,6 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 107.95) (xy 78.74 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bf0493f9-912b-4d34-8dba-b18915bf5827")
-	)
-	(wire
-		(pts
 			(xy 111.76 152.4) (xy 116.84 152.4)
 		)
 		(stroke
@@ -4156,6 +4156,16 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 107.95) (xy 78.74 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7c95054-10a8-4ce5-8aac-a3a268f03fc5")
+	)
+	(wire
+		(pts
 			(xy 222.25 67.31) (xy 228.6 67.31)
 		)
 		(stroke
@@ -4263,16 +4273,6 @@
 			(type default)
 		)
 		(uuid "e4a76991-9201-4a4d-943b-4a061814ef30")
-	)
-	(wire
-		(pts
-			(xy 76.2 107.95) (xy 63.5 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e8797671-8819-4b46-be6c-fedd8423c77d")
 	)
 	(wire
 		(pts
@@ -5206,7 +5206,7 @@
 		(lib_id "Amplifier_Operational:TL074")
 		(at 144.78 48.26 0)
 		(mirror x)
-		(unit 2)
+		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -5255,6 +5255,14 @@
 				(hide yes)
 			)
 		)
+		(property "Function" ""
+			(at 144.78 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "14"
 			(uuid "04b1df7f-aeaf-4457-a9d9-645f3d29d180")
 		)
@@ -5301,7 +5309,7 @@
 			(project ""
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
 					(reference "U1")
-					(unit 2)
+					(unit 3)
 				)
 			)
 		)
@@ -5377,15 +5385,15 @@
 	(symbol
 		(lib_id "Device:R_US")
 		(at 63.5 101.6 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "34c5ba6e-70fc-42d5-bf78-f570b60dd96c")
 		(property "Reference" "R33"
-			(at 66.04 100.3299 0)
+			(at 60.96 100.3299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5393,8 +5401,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "3k3"
-			(at 66.04 102.8699 0)
+		(property "Value" "300k"
+			(at 60.96 102.8699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5403,7 +5411,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 64.516 101.854 90)
+			(at 62.484 101.854 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6421,7 +6429,7 @@
 				)
 			)
 		)
-		(property "Value" "51k"
+		(property "Value" "1k"
 			(at 100.33 26.67 90)
 			(effects
 				(font
@@ -6522,6 +6530,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Function" ""
+			(at 54.61 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "14"
@@ -6645,7 +6661,6 @@
 	(symbol
 		(lib_id "Device:C")
 		(at 107.95 171.45 0)
-		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6653,7 +6668,7 @@
 		(dnp no)
 		(uuid "6c7f9f8a-02ba-41cc-b45a-8b07c3bc80be")
 		(property "Reference" "C15"
-			(at 115.57 171.45 90)
+			(at 100.33 171.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6661,7 +6676,7 @@
 			)
 		)
 		(property "Value" "2.2nF"
-			(at 113.03 171.45 90)
+			(at 102.87 171.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6669,7 +6684,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
-			(at 106.9848 175.26 0)
+			(at 108.9152 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6761,6 +6776,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Function" ""
+			(at 152.4 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "14"
@@ -7096,7 +7119,6 @@
 	(symbol
 		(lib_id "Device:R_US")
 		(at 82.55 158.75 0)
-		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7104,7 +7126,7 @@
 		(dnp no)
 		(uuid "7b4f84bb-e5c3-41b6-bc42-ff0d202f0307")
 		(property "Reference" "R18"
-			(at 88.9 158.75 90)
+			(at 76.2 158.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7112,7 +7134,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 86.36 158.75 90)
+			(at 78.74 158.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7120,7 +7142,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 81.534 159.004 90)
+			(at 83.566 159.004 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7164,15 +7186,15 @@
 	(symbol
 		(lib_id "Device:R_US")
 		(at 76.2 101.6 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7c1239a7-7b38-4f32-bfa9-994607a19f40")
 		(property "Reference" "R35"
-			(at 78.74 100.3299 0)
+			(at 73.66 100.3299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7180,8 +7202,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "3k3"
-			(at 78.74 102.8699 0)
+		(property "Value" "300k"
+			(at 73.66 102.8699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7190,7 +7212,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 77.216 101.854 90)
+			(at 75.184 101.854 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7528,7 +7550,6 @@
 	(symbol
 		(lib_id "Device:R_US")
 		(at 88.9 165.1 270)
-		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7536,7 +7557,7 @@
 		(dnp no)
 		(uuid "88db0e10-02ab-4a9d-90fa-32bc2a9096ad")
 		(property "Reference" "R19"
-			(at 88.9 171.45 90)
+			(at 88.9 158.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7544,7 +7565,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 88.9 168.91 90)
+			(at 88.9 161.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7552,7 +7573,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 88.646 164.084 90)
+			(at 88.646 166.116 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10214,7 +10235,7 @@
 		(lib_id "Amplifier_Operational:TL074")
 		(at 203.2 45.72 0)
 		(mirror x)
-		(unit 3)
+		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -10263,6 +10284,14 @@
 				(hide yes)
 			)
 		)
+		(property "Function" ""
+			(at 203.2 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "14"
 			(uuid "04b1df7f-aeaf-4457-a9d9-645f3d29d184")
 		)
@@ -10309,7 +10338,7 @@
 			(project ""
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
 					(reference "U1")
-					(unit 3)
+					(unit 2)
 				)
 			)
 		)
@@ -10594,7 +10623,6 @@
 	(symbol
 		(lib_id "Device:C")
 		(at 95.25 171.45 0)
-		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10602,7 +10630,7 @@
 		(dnp no)
 		(uuid "e33b5afe-e219-42f3-bcab-02f18d4099fd")
 		(property "Reference" "C14"
-			(at 102.87 171.45 90)
+			(at 87.63 171.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10610,7 +10638,7 @@
 			)
 		)
 		(property "Value" "680pF"
-			(at 100.33 171.45 90)
+			(at 90.17 171.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10618,7 +10646,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
-			(at 94.2848 175.26 0)
+			(at 96.2152 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10816,7 +10844,6 @@
 	(symbol
 		(lib_id "Device:C")
 		(at 120.65 171.45 0)
-		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10824,7 +10851,7 @@
 		(dnp no)
 		(uuid "f6030a32-b807-4b1e-ba02-a3a7d97acbd5")
 		(property "Reference" "C16"
-			(at 128.27 171.45 90)
+			(at 113.03 171.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10832,7 +10859,7 @@
 			)
 		)
 		(property "Value" "5.6nF"
-			(at 125.73 171.45 90)
+			(at 115.57 171.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10840,7 +10867,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
-			(at 119.6848 175.26 0)
+			(at 121.6152 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10951,15 +10978,15 @@
 	(symbol
 		(lib_id "Device:R_US")
 		(at 63.5 114.3 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "fb600c7e-9d10-47cc-8259-58fa18228efa")
 		(property "Reference" "R34"
-			(at 66.04 113.0299 0)
+			(at 60.96 113.0299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10967,8 +10994,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k"
-			(at 66.04 115.5699 0)
+		(property "Value" "100k"
+			(at 60.96 115.5699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10977,7 +11004,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 64.516 114.554 90)
+			(at 62.484 114.554 90)
 			(effects
 				(font
 					(size 1.27 1.27)
