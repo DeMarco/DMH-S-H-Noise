@@ -1175,7 +1175,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CV Amount"
+		(property "Value" "Input Level"
 			(at 66.04 152.3999 0)
 			(effects
 				(font
@@ -1910,7 +1910,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CV In"
+		(property "Value" "Input"
 			(at 66.04 190.4999 0)
 			(effects
 				(font

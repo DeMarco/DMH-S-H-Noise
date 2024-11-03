@@ -70,8 +70,8 @@
 		)
 	)
 	(sheet
-		(at 120.65 80.01)
-		(size 41.91 38.1)
+		(at 63.5 25.4)
+		(size 41.91 50.8)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -82,7 +82,7 @@
 		)
 		(uuid "7ad2d702-dfb7-4d49-a82d-34430dd5948f")
 		(property "Sheetname" "Core Circuit"
-			(at 120.65 79.2984 0)
+			(at 63.5 24.6884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -91,7 +91,7 @@
 			)
 		)
 		(property "Sheetfile" "Core_Circuit.kicad_sch"
-			(at 120.65 118.6946 0)
+			(at 63.5 76.7846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -109,8 +109,8 @@
 		)
 	)
 	(sheet
-		(at 17.78 17.78)
-		(size 20.32 118.11)
+		(at 17.78 63.5)
+		(size 20.32 50.8)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -121,7 +121,7 @@
 		)
 		(uuid "ce3fef8b-9f1d-4178-b50b-4a046c030679")
 		(property "Sheetname" "Inputs and Outputs"
-			(at 17.78 17.0684 0)
+			(at 17.78 62.7884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -130,7 +130,7 @@
 			)
 		)
 		(property "Sheetfile" "Inputs_and_Outputs.kicad_sch"
-			(at 17.78 136.4746 0)
+			(at 17.78 114.8846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
