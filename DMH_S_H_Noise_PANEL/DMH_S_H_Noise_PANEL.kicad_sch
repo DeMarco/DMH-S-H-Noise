@@ -1855,7 +1855,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Slw In"
+		(property "Value" "Slew In"
 			(at 116.84 190.4999 0)
 			(effects
 				(font
@@ -1922,7 +1922,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Slw Out"
+		(property "Value" "Slew"
 			(at 66.04 203.1999 0)
 			(effects
 				(font
@@ -1989,7 +1989,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "S&H Out"
+		(property "Value" "S&H"
 			(at 40.64 203.1999 0)
 			(effects
 				(font
@@ -2099,6 +2099,70 @@
 			(project ""
 				(path "/a552705f-a9fe-462e-9913-5cfcc08b233c"
 					(reference "H8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 88.9 228.6 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ebd2df37-d119-489d-968a-c58cb943aa8c")
+		(property "Reference" "H17"
+			(at 91.44 227.3299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Switch"
+			(at 91.44 229.8699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SynthStuff:MX_switch_Cutout"
+			(at 88.9 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 88.9 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 88.9 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/a552705f-a9fe-462e-9913-5cfcc08b233c"
+					(reference "H17")
 					(unit 1)
 				)
 			)
@@ -2269,7 +2333,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Clk In"
+		(property "Value" "Clock"
 			(at 91.44 190.4999 0)
 			(effects
 				(font
