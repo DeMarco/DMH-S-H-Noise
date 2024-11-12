@@ -10,8 +10,108 @@
 		(comment 1 "PCB for 5 cm Kosmo format synthesizer module")
 	)
 	(lib_symbols)
+	(wire
+		(pts
+			(xy 38.1 102.87) (xy 63.5 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bfc6992-4c2f-4094-bd92-30178a83ce4b")
+	)
+	(wire
+		(pts
+			(xy 38.1 95.25) (xy 63.5 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "174d3d84-496e-4724-b640-95d9bd2db57d")
+	)
+	(wire
+		(pts
+			(xy 38.1 83.82) (xy 63.5 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46c3113b-2570-4f9e-ab39-60c83757c9fb")
+	)
+	(wire
+		(pts
+			(xy 38.1 72.39) (xy 63.5 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ba6b005-95ed-48a0-8cc5-b019f5dc5cf0")
+	)
+	(wire
+		(pts
+			(xy 38.1 106.68) (xy 63.5 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bceb57e-58d0-47a8-af86-809d78e6630a")
+	)
+	(wire
+		(pts
+			(xy 38.1 87.63) (xy 63.5 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c07f4e89-f730-47d6-9ec4-29ee0417e698")
+	)
+	(wire
+		(pts
+			(xy 38.1 80.01) (xy 63.5 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d40eca34-f12e-4818-9316-7b07f8c749a8")
+	)
+	(wire
+		(pts
+			(xy 38.1 91.44) (xy 63.5 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d64dec9c-d03c-435b-8d05-dfe5bb28658e")
+	)
+	(wire
+		(pts
+			(xy 38.1 99.06) (xy 63.5 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7c9eff4-abf6-4ef6-a579-443ab478c7d1")
+	)
+	(wire
+		(pts
+			(xy 38.1 76.2) (xy 63.5 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f74e67bb-96c5-4436-af74-dc4429b4c988")
+	)
 	(sheet
-		(at 260.35 16.51)
+		(at 127 63.5)
 		(size 20.32 27.94)
 		(fields_autoplaced yes)
 		(stroke
@@ -23,7 +123,7 @@
 		)
 		(uuid "0cdf34b2-39cd-4d9e-981a-97cd34791509")
 		(property "Sheetname" "Power"
-			(at 260.35 15.7984 0)
+			(at 127 62.7884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32,7 +132,7 @@
 			)
 		)
 		(property "Sheetfile" "Power.kicad_sch"
-			(at 260.35 45.0346 0)
+			(at 127 92.0246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40,26 +140,6 @@
 				(justify left top)
 				(hide yes)
 			)
-		)
-		(pin "Bus Gate" output
-			(at 260.35 25.4 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "35434339-bc2b-4868-9a18-95483283b276")
-		)
-		(pin "Bus CV" output
-			(at 260.35 34.29 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "0197176f-d754-4695-b74f-89d14faa0aea")
 		)
 		(instances
 			(project "DMH_S_H_Noise_PCB"
@@ -70,7 +150,7 @@
 		)
 	)
 	(sheet
-		(at 63.5 25.4)
+		(at 63.5 63.5)
 		(size 41.91 50.8)
 		(fields_autoplaced yes)
 		(stroke
@@ -82,7 +162,7 @@
 		)
 		(uuid "7ad2d702-dfb7-4d49-a82d-34430dd5948f")
 		(property "Sheetname" "Core Circuit"
-			(at 63.5 24.6884 0)
+			(at 63.5 62.7884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -91,7 +171,7 @@
 			)
 		)
 		(property "Sheetfile" "Core_Circuit.kicad_sch"
-			(at 63.5 76.7846 0)
+			(at 63.5 114.8846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -99,6 +179,106 @@
 				(justify left top)
 				(hide yes)
 			)
+		)
+		(pin "White" output
+			(at 63.5 102.87 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3f1edd0c-aaad-45cc-bbac-e2a781e783ad")
+		)
+		(pin "Internal Clock" output
+			(at 63.5 72.39 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7feae713-e9ee-48b9-b6f7-ef8a9d4c7d1c")
+		)
+		(pin "External Clock" input
+			(at 63.5 76.2 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6c15e042-405c-493f-a27b-48d21b20932b")
+		)
+		(pin "Input" input
+			(at 63.5 87.63 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7ab8f8da-5cc9-4533-bb78-a876057dc221")
+		)
+		(pin "Pink" output
+			(at 63.5 106.68 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4e0d4b6f-3bfe-43fb-80ad-cf4d15cfeee7")
+		)
+		(pin "Blue" output
+			(at 63.5 99.06 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "1b734584-ea06-43bf-8c4a-35d259a06a2f")
+		)
+		(pin "S&H Output" output
+			(at 63.5 91.44 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8fc03a24-2164-49fd-8546-474059f9a1d8")
+		)
+		(pin "Slew Output" output
+			(at 63.5 95.25 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8306c15d-bbf2-44d3-9b00-82098fe1c88e")
+		)
+		(pin "Slew Input" input
+			(at 63.5 83.82 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f8143c5a-c36c-4be4-be6f-244f1e4cda96")
+		)
+		(pin "S&H" output
+			(at 63.5 80.01 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c6d1aaa9-e6f0-451f-9bcc-7f45c7fd63b1")
 		)
 		(instances
 			(project "DMH_S_H_Noise_PCB"
@@ -138,6 +318,106 @@
 				(justify left top)
 				(hide yes)
 			)
+		)
+		(pin "Internal Clock" input
+			(at 38.1 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e0278d4e-6913-4803-851e-7e26891da9a8")
+		)
+		(pin "External Clock" output
+			(at 38.1 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "8fee6c8f-2d9a-4e9f-b88b-41241e0b65f7")
+		)
+		(pin "S&H" input
+			(at 38.1 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c279cbf2-a37d-4073-a450-812dda719f3d")
+		)
+		(pin "Slew In" output
+			(at 38.1 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "51bff63d-c364-44e2-8573-c46608d65d47")
+		)
+		(pin "Input" output
+			(at 38.1 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "aecb7aa8-5b9b-40c4-945d-b097e232d740")
+		)
+		(pin "S&H Out" input
+			(at 38.1 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b41d066c-6139-4238-abbe-89888e574e0f")
+		)
+		(pin "Slew Out" input
+			(at 38.1 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "44e4cdf5-1240-4e63-8715-be31f5990c66")
+		)
+		(pin "Blue" input
+			(at 38.1 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "dd0960e3-f803-4b8b-bfa7-a432a0458664")
+		)
+		(pin "White" input
+			(at 38.1 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "5691bb92-19f5-4ebe-80e7-82ce1d90821c")
+		)
+		(pin "Pink" input
+			(at 38.1 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "783cce3a-083d-4d75-9ca0-1a33a7556dee")
 		)
 		(instances
 			(project "DMH_S_H_Noise_PCB"
