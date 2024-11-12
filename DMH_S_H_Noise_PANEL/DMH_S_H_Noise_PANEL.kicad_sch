@@ -994,6 +994,16 @@
 	)
 	(wire
 		(pts
+			(xy 161.29 203.2) (xy 161.29 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "710e545b-8a02-429d-ba6e-6a5a65283b0d")
+	)
+	(wire
+		(pts
 			(xy 59.69 196.85) (xy 59.69 190.5)
 		)
 		(stroke
@@ -1141,6 +1151,16 @@
 			(type default)
 		)
 		(uuid "b05fe321-7ceb-44cb-bdc5-db1ed7dfb27d")
+	)
+	(wire
+		(pts
+			(xy 161.29 196.85) (xy 135.89 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbd748a1-ee34-4da5-81d8-5dc26757da96")
 	)
 	(wire
 		(pts
@@ -2016,6 +2036,73 @@
 			(project ""
 				(path "/a552705f-a9fe-462e-9913-5cfcc08b233c"
 					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SynthStuff:MountingHole_Jack6.35mm_Output_v2")
+		(at 165.1 203.2 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aed9a912-a4fe-4421-9ec2-4630724469a8")
+		(property "Reference" "H19"
+			(at 167.64 200.6599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Clk.Out"
+			(at 167.64 203.1999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SynthStuff:Jack_6.35mm_Cutout_Output_v6"
+			(at 165.1 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 165.1 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jack 6.35mm Output"
+			(at 167.64 205.7399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "ae377073-4c84-4165-8057-4ffc6ace7bc7")
+		)
+		(instances
+			(project "DMH_S_H_Noise_PANEL"
+				(path "/a552705f-a9fe-462e-9913-5cfcc08b233c"
+					(reference "H19")
 					(unit 1)
 				)
 			)

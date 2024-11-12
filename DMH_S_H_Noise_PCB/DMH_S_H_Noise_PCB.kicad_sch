@@ -110,6 +110,16 @@
 		)
 		(uuid "f74e67bb-96c5-4436-af74-dc4429b4c988")
 	)
+	(wire
+		(pts
+			(xy 38.1 68.58) (xy 63.5 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcb3b062-18e4-4ed5-826c-0abb229c04c7")
+	)
 	(sheet
 		(at 127 63.5)
 		(size 20.32 27.94)
@@ -280,6 +290,16 @@
 			)
 			(uuid "c6d1aaa9-e6f0-451f-9bcc-7f45c7fd63b1")
 		)
+		(pin "Clock Output" output
+			(at 63.5 68.58 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "2dd8d907-6f22-40de-820a-e95fae110797")
+		)
 		(instances
 			(project "DMH_S_H_Noise_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315"
@@ -418,6 +438,16 @@
 				(justify right)
 			)
 			(uuid "783cce3a-083d-4d75-9ca0-1a33a7556dee")
+		)
+		(pin "Clock Out" input
+			(at 38.1 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "0638ac9d-1ad0-490c-8668-b03296490008")
 		)
 		(instances
 			(project "DMH_S_H_Noise_PCB"
