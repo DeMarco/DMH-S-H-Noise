@@ -6440,8 +6440,19 @@
 		(uuid "ec9f8ce8-d566-47b5-b3ca-a278494940cd")
 	)
 	(gr_circle
-		(center 75 142.75)
-		(end 75 146.25)
+		(center 87.5 108.25)
+		(end 91 108.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "Cmts.User")
+		(uuid "0c59a525-26c8-46ce-b11d-c350b61e4b58")
+	)
+	(gr_circle
+		(center 62.5 142.5)
+		(end 62.5 146)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -6449,6 +6460,26 @@
 		(fill none)
 		(layer "Cmts.User")
 		(uuid "0cc9f5ec-7ed5-40cc-ae70-8be18450149c")
+	)
+	(gr_line
+		(start 87.5 133)
+		(end 87.5 152)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Cmts.User")
+		(uuid "0f325df4-047f-442d-9dca-1b035c50bd0d")
+	)
+	(gr_line
+		(start 84 108.25)
+		(end 91 108.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Cmts.User")
+		(uuid "2e680423-2a32-4d3b-b804-73ec08279ecb")
 	)
 	(gr_circle
 		(center 75 71)
@@ -6462,8 +6493,8 @@
 		(uuid "3107f5ad-a56d-4b83-898d-256c1fd4b519")
 	)
 	(gr_line
-		(start 71.5 142.75)
-		(end 78.5 142.75)
+		(start 59 142.5)
+		(end 66 142.5)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -6481,9 +6512,30 @@
 		(layer "Cmts.User")
 		(uuid "331636eb-0b41-4a2f-ba0f-591c75caf8d5")
 	)
+	(gr_line
+		(start 78 142.5)
+		(end 97 142.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Cmts.User")
+		(uuid "3f21076d-9ea0-41e2-bab6-a6c802882c17")
+	)
+	(gr_rect
+		(start 78 133)
+		(end 97 152)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "Cmts.User")
+		(uuid "84bb2505-ede9-4db7-93ff-25c55ec0b00b")
+	)
 	(gr_circle
-		(center 75 108.125)
-		(end 75 111.5)
+		(center 62.5 108.25)
+		(end 66 108.25)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -6493,8 +6545,8 @@
 		(uuid "9eb4ce8e-7167-4a50-85b3-d9b648622aa3")
 	)
 	(gr_line
-		(start 71.625 108.125)
-		(end 78.375 108.125)
+		(start 59 108.25)
+		(end 66 108.25)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -6503,8 +6555,18 @@
 		(uuid "a704c623-c0a5-487f-8a3e-0e93c6b068be")
 	)
 	(gr_line
-		(start 75 139.25)
-		(end 75 146.25)
+		(start 87.5 104.75)
+		(end 87.5 111.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Cmts.User")
+		(uuid "abe053ca-d02d-45e4-838e-f24a8452050a")
+	)
+	(gr_line
+		(start 62.5 139)
+		(end 62.5 146)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -6513,8 +6575,8 @@
 		(uuid "d7376e23-65f5-4933-b2cc-bb6e22b15bef")
 	)
 	(gr_line
-		(start 75 104.75)
-		(end 75 111.5)
+		(start 62.5 104.75)
+		(end 62.5 111.75)
 		(stroke
 			(width 0.1)
 			(type default)

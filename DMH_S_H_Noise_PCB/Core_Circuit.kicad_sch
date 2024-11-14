@@ -2395,22 +2395,12 @@
 		(uuid "fedbdb8f-f963-4fee-befc-5d30f22a4504")
 	)
 	(no_connect
-		(at 41.91 99.06)
-		(uuid "a1104d92-1674-4045-b108-c884d9ef46d1")
+		(at 41.91 104.14)
+		(uuid "1a45b7f8-ecbb-43c1-8e76-04d6d8032d95")
 	)
 	(no_connect
 		(at 31.75 190.5)
 		(uuid "a9e99f0f-b49b-49be-af0d-1dec4d648ac8")
-	)
-	(wire
-		(pts
-			(xy 39.37 104.14) (xy 41.91 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0210ef7b-a5a4-4c87-85fc-c836370e4ee8")
 	)
 	(wire
 		(pts
@@ -4194,7 +4184,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 104.14) (xy 31.75 104.14)
+			(xy 29.21 99.06) (xy 31.75 99.06)
 		)
 		(stroke
 			(width 0)
@@ -4444,6 +4434,16 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 99.06) (xy 41.91 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f32cf419-8a2c-47e0-a78c-31438413065f")
+	)
+	(wire
+		(pts
 			(xy 222.25 72.39) (xy 222.25 67.31)
 		)
 		(stroke
@@ -4686,7 +4686,7 @@
 	)
 	(hierarchical_label "External Clock"
 		(shape input)
-		(at 29.21 104.14 180)
+		(at 29.21 99.06 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4698,8 +4698,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 35.56 104.14 270)
-		(mirror x)
+		(at 35.56 99.06 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4707,7 +4706,7 @@
 		(dnp no)
 		(uuid "002f8e86-275a-485e-b4e1-9c9c551290c8")
 		(property "Reference" "R4"
-			(at 35.56 110.49 90)
+			(at 35.56 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4715,7 +4714,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 35.56 107.95 90)
+			(at 35.56 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4723,7 +4722,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 35.306 103.124 90)
+			(at 35.306 100.076 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4732,7 +4731,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 35.56 104.14 0)
+			(at 35.56 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4741,7 +4740,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 35.56 104.14 0)
+			(at 35.56 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9201,7 +9200,7 @@
 				)
 			)
 		)
-		(property "Value" "MMBFJ113"
+		(property "Value" "J113"
 			(at 165.1 44.45 90)
 			(effects
 				(font
@@ -9209,7 +9208,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "Package_TO_SOT_THT:TO-92L_Inline"
 			(at 167.005 45.72 0)
 			(effects
 				(font
@@ -9237,6 +9236,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Function" ""
+			(at 165.1 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "3"
