@@ -2353,12 +2353,6 @@
 		(uuid "da0146d3-1871-42de-8916-3f2000b9895d")
 	)
 	(junction
-		(at 95.25 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dd84b6bf-ebcb-4618-89ec-abb9d7a22030")
-	)
-	(junction
 		(at 152.4 167.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2694,6 +2688,16 @@
 	)
 	(wire
 		(pts
+			(xy 95.25 67.31) (xy 95.25 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c01b101-e63a-4ec0-b2bb-1673851562e5")
+	)
+	(wire
+		(pts
 			(xy 19.05 57.15) (xy 19.05 88.9)
 		)
 		(stroke
@@ -3014,7 +3018,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 19.05) (xy 104.14 22.86)
+			(xy 104.14 21.59) (xy 104.14 24.13)
 		)
 		(stroke
 			(width 0)
@@ -3131,16 +3135,6 @@
 			(type default)
 		)
 		(uuid "4b7a0ba0-6681-426f-9d46-45e86b15c92b")
-	)
-	(wire
-		(pts
-			(xy 95.25 67.31) (xy 95.25 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4bd35555-d85a-4486-91b7-bebd9809582f")
 	)
 	(wire
 		(pts
@@ -3341,6 +3335,16 @@
 			(type default)
 		)
 		(uuid "6196de69-7073-4157-82c6-f236f3135bf1")
+	)
+	(wire
+		(pts
+			(xy 95.25 71.12) (xy 120.65 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "621346bb-a64d-4ac4-a8f1-ed49d12665fe")
 	)
 	(wire
 		(pts
@@ -4034,6 +4038,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 31.75) (xy 104.14 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b66cf125-1aeb-4207-9d4d-f3be1dbcb17e")
+	)
+	(wire
+		(pts
 			(xy 95.25 104.14) (xy 92.71 104.14)
 		)
 		(stroke
@@ -4131,6 +4145,16 @@
 			(type default)
 		)
 		(uuid "c9e6ab9c-1021-4d41-8d74-3361c7e93208")
+	)
+	(wire
+		(pts
+			(xy 120.65 71.12) (xy 120.65 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc4ed5f4-81f7-440c-a395-1204d77f8546")
 	)
 	(wire
 		(pts
@@ -4301,16 +4325,6 @@
 			(type default)
 		)
 		(uuid "dc767c94-b147-4eba-b923-4ed41fb6b9c0")
-	)
-	(wire
-		(pts
-			(xy 104.14 30.48) (xy 104.14 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e265f64d-905b-4a9a-bee9-c2a515f719ba")
 	)
 	(wire
 		(pts
@@ -5036,7 +5050,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0f594799-9f9e-461a-b4a2-9e652e83cc6d")
-		(property "Reference" "R14"
+		(property "Reference" "R19"
 			(at 25.4 171.45 90)
 			(effects
 				(font
@@ -5088,7 +5102,7 @@
 		(instances
 			(project "DMH_S_H_Noise_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
-					(reference "R14")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -5281,7 +5295,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1d203766-5760-4510-a3a1-5e5ea1c7a243")
-		(property "Reference" "R32"
+		(property "Reference" "R37"
 			(at 187.96 135.89 90)
 			(effects
 				(font
@@ -5333,7 +5347,7 @@
 		(instances
 			(project "DMH_S_H_Noise_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
-					(reference "R32")
+					(reference "R37")
 					(unit 1)
 				)
 			)
@@ -5461,7 +5475,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "267eaf36-8100-4c70-b712-53ddee754f78")
-		(property "Reference" "R8"
+		(property "Reference" "R11"
 			(at 139.7 82.55 90)
 			(effects
 				(font
@@ -5513,7 +5527,7 @@
 		(instances
 			(project "DMH_S_H_Noise_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
-					(reference "R8")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -5529,7 +5543,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3545ea7f-8a40-4ff2-bf7c-5e96cf2c0f12")
-		(property "Reference" "R33"
+		(property "Reference" "R18"
 			(at 64.77 82.55 90)
 			(effects
 				(font
@@ -5581,7 +5595,7 @@
 		(instances
 			(project "DMH_S_H_Noise_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
-					(reference "R33")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -5597,7 +5611,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "36a6ffee-602e-4dd1-940b-6b202c7331f9")
-		(property "Reference" "D1"
+		(property "Reference" "D3"
 			(at 100.33 38.4174 90)
 			(effects
 				(font
@@ -5651,7 +5665,7 @@
 		(instances
 			(project ""
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
-					(reference "D1")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -5740,7 +5754,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 104.14 19.05 0)
+		(at 104.14 21.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5749,7 +5763,7 @@
 		(fields_autoplaced yes)
 		(uuid "3e7eeed3-7a14-4743-aca5-35a834724765")
 		(property "Reference" "#PWR03"
-			(at 104.14 22.86 0)
+			(at 104.14 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5758,7 +5772,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 104.14 13.97 0)
+			(at 104.14 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5766,7 +5780,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 104.14 19.05 0)
+			(at 104.14 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5775,7 +5789,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 104.14 19.05 0)
+			(at 104.14 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5784,7 +5798,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 104.14 19.05 0)
+			(at 104.14 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6059,7 +6073,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4c0ba759-79c9-4f45-9e4a-824f63417fcf")
-		(property "Reference" "R36"
+		(property "Reference" "R9"
 			(at 97.79 81.2799 0)
 			(effects
 				(font
@@ -6121,7 +6135,7 @@
 		(instances
 			(project "DMH_S_H_Noise_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
-					(reference "R36")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -6137,7 +6151,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "502cba5a-afd8-4d79-9a26-8e35ee49bbd0")
-		(property "Reference" "C9"
+		(property "Reference" "C11"
 			(at 31.75 24.13 90)
 			(effects
 				(font
@@ -6145,7 +6159,7 @@
 				)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "2x1uF"
 			(at 31.75 26.67 90)
 			(effects
 				(font
@@ -6189,7 +6203,7 @@
 		(instances
 			(project "DMH_S_H_Noise_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
-					(reference "C9")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -6488,7 +6502,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5bffdaf7-955a-45c1-8519-39e2607c6668")
-		(property "Reference" "R27"
+		(property "Reference" "R32"
 			(at 120.65 133.35 90)
 			(effects
 				(font
@@ -6540,7 +6554,7 @@
 		(instances
 			(project "DMH_S_H_Noise_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
-					(reference "R27")
+					(reference "R32")
 					(unit 1)
 				)
 			)
@@ -6556,7 +6570,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5d0bf38f-a018-42fe-835e-885fd3179d37")
-		(property "Reference" "C12"
+		(property "Reference" "C14"
 			(at 236.22 82.55 90)
 			(effects
 				(font
@@ -6564,7 +6578,7 @@
 				)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "2x470nF"
 			(at 233.68 82.55 90)
 			(effects
 				(font
@@ -6608,74 +6622,7 @@
 		(instances
 			(project "DMH_S_H_Noise_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
-					(reference "C12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 104.14 26.67 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "64e163f9-d206-463e-9daa-670e9b5301ca")
-		(property "Reference" "R6"
-			(at 97.79 26.67 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "2k"
-			(at 100.33 26.67 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 105.156 26.924 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 104.14 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 104.14 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "46b0aaf3-d427-4320-b3c4-bec7ef9f2e4b")
-		)
-		(pin "2"
-			(uuid "e1f016d0-71bd-4ea4-8c40-fc65b1e6a475")
-		)
-		(instances
-			(project "DMH_S_H_Noise_PCB"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
-					(reference "R6")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -6802,7 +6749,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "678cb7e8-83f4-43e2-891a-9ddb524e8c1f")
-		(property "Reference" "R26"
+		(property "Reference" "R31"
 			(at 120.65 120.65 90)
 			(effects
 				(font
@@ -6854,7 +6801,7 @@
 		(instances
 			(project "DMH_S_H_Noise_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
-					(reference "R26")
+					(reference "R31")
 					(unit 1)
 				)
 			)
@@ -6935,7 +6882,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6c7f9f8a-02ba-41cc-b45a-8b07c3bc80be")
-		(property "Reference" "C15"
+		(property "Reference" "C17"
 			(at 100.33 171.45 90)
 			(effects
 				(font
@@ -6987,7 +6934,7 @@
 		(instances
 			(project "DMH_S_H_Noise_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
-					(reference "C15")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -7181,7 +7128,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7960f361-29b0-43f4-9a69-f3e8e10c4990")
-		(property "Reference" "R1"
+		(property "Reference" "R2"
 			(at 31.75 63.5 90)
 			(effects
 				(font
@@ -7233,7 +7180,7 @@
 		(instances
 			(project ""
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
-					(reference "R1")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -7248,7 +7195,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "79bd49b1-d2b6-4cb5-b109-2dd7d138db17")
-		(property "Reference" "R28"
+		(property "Reference" "R33"
 			(at 120.65 146.05 90)
 			(effects
 				(font
@@ -7300,7 +7247,7 @@
 		(instances
 			(project "DMH_S_H_Noise_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
-					(reference "R28")
+					(reference "R33")
 					(unit 1)
 				)
 			)
@@ -7315,7 +7262,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7b4f84bb-e5c3-41b6-bc42-ff0d202f0307")
-		(property "Reference" "R18"
+		(property "Reference" "R23"
 			(at 76.2 158.75 90)
 			(effects
 				(font
@@ -7367,7 +7314,7 @@
 		(instances
 			(project "DMH_S_H_Noise_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
-					(reference "R18")
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -7449,7 +7396,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "826105d5-90f9-4441-9415-e3b11dbc69a1")
-		(property "Reference" "R16"
+		(property "Reference" "R21"
 			(at 63.5 184.15 90)
 			(effects
 				(font
@@ -7501,7 +7448,7 @@
 		(instances
 			(project "DMH_S_H_Noise_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
-					(reference "R16")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -7517,7 +7464,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "85d47a18-e5aa-4060-937c-7e9de5f22987")
-		(property "Reference" "R7"
+		(property "Reference" "R10"
 			(at 127 82.55 90)
 			(effects
 				(font
@@ -7569,7 +7516,7 @@
 		(instances
 			(project "DMH_S_H_Noise_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
-					(reference "R7")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -7734,7 +7681,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "88db0e10-02ab-4a9d-90fa-32bc2a9096ad")
-		(property "Reference" "R19"
+		(property "Reference" "R24"
 			(at 88.9 158.75 90)
 			(effects
 				(font
@@ -7786,7 +7733,7 @@
 		(instances
 			(project "DMH_S_H_Noise_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
-					(reference "R19")
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -7801,7 +7748,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "898a795e-4cb1-4ee7-b188-2a3444e381ff")
-		(property "Reference" "R20"
+		(property "Reference" "R25"
 			(at 88.9 184.15 90)
 			(effects
 				(font
@@ -7853,7 +7800,7 @@
 		(instances
 			(project "DMH_S_H_Noise_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
-					(reference "R20")
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -8116,7 +8063,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "92345174-6c34-4274-9697-d07a41b96840")
-		(property "Reference" "C17"
+		(property "Reference" "C21"
 			(at 107.95 144.78 90)
 			(effects
 				(font
@@ -8168,7 +8115,7 @@
 		(instances
 			(project "DMH_S_H_Noise_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
-					(reference "C17")
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -8249,7 +8196,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "94d82359-4e78-4ca0-ab24-d7a9d7d3a003")
-		(property "Reference" "R22"
+		(property "Reference" "R27"
 			(at 114.3 184.15 90)
 			(effects
 				(font
@@ -8301,7 +8248,7 @@
 		(instances
 			(project "DMH_S_H_Noise_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
-					(reference "R22")
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -8316,7 +8263,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "97c9a6bb-8037-4d28-96f2-9d3f45c2d8e7")
-		(property "Reference" "R5"
+		(property "Reference" "R14"
 			(at 88.9 63.5 90)
 			(effects
 				(font
@@ -8368,7 +8315,7 @@
 		(instances
 			(project "DMH_S_H_Noise_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
-					(reference "R5")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -8383,7 +8330,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9c3fab6a-ba4f-4a30-ad71-bf88f892b212")
-		(property "Reference" "R34"
+		(property "Reference" "R5"
 			(at 69.85 106.6799 0)
 			(effects
 				(font
@@ -8445,7 +8392,7 @@
 		(instances
 			(project "DMH_S_H_Noise_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
-					(reference "R34")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -8461,7 +8408,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9f0c9191-e3c8-4195-9772-199baee1e2ef")
-		(property "Reference" "R15"
+		(property "Reference" "R20"
 			(at 50.8 184.15 90)
 			(effects
 				(font
@@ -8513,7 +8460,7 @@
 		(instances
 			(project "DMH_S_H_Noise_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
-					(reference "R15")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -8580,6 +8527,74 @@
 			(project "DMH_S_H_Noise_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
 					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 104.14 27.94 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "a24dfe0a-7cd2-47d6-9109-fb5ddbdb7d54")
+		(property "Reference" "R38"
+			(at 110.49 27.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2k"
+			(at 107.95 27.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 103.124 28.194 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 104.14 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 104.14 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "036703a8-de18-464c-a738-18410303f7ed")
+		)
+		(pin "2"
+			(uuid "c8b7cf3c-afee-4136-ba1e-ec7ccec55947")
+		)
+		(instances
+			(project "DMH_S_H_Noise_PCB"
+				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
+					(reference "R38")
 					(unit 1)
 				)
 			)
@@ -8661,7 +8676,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a8d97f36-d5a6-49a4-9dac-c92fb5011de2")
-		(property "Reference" "R35"
+		(property "Reference" "R7"
 			(at 68.58 139.7 90)
 			(effects
 				(font
@@ -8713,7 +8728,7 @@
 		(instances
 			(project "DMH_S_H_Noise_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
-					(reference "R35")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -8729,7 +8744,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a94f3d8d-3d09-4b32-9656-4456e4b4c1f6")
-		(property "Reference" "C10"
+		(property "Reference" "C12"
 			(at 114.3 83.82 90)
 			(effects
 				(font
@@ -8781,7 +8796,7 @@
 		(instances
 			(project "DMH_S_H_Noise_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
-					(reference "C10")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -8796,7 +8811,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b05e847c-0888-41af-90fb-02469e35a51a")
-		(property "Reference" "R23"
+		(property "Reference" "R28"
 			(at 127 184.15 90)
 			(effects
 				(font
@@ -8848,7 +8863,7 @@
 		(instances
 			(project "DMH_S_H_Noise_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
-					(reference "R23")
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -8863,7 +8878,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b2805082-948b-4317-b683-a1e983bb8166")
-		(property "Reference" "R29"
+		(property "Reference" "R34"
 			(at 146.05 146.05 90)
 			(effects
 				(font
@@ -8915,7 +8930,7 @@
 		(instances
 			(project "DMH_S_H_Noise_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
-					(reference "R29")
+					(reference "R34")
 					(unit 1)
 				)
 			)
@@ -8931,7 +8946,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b29d50a9-9843-4dae-a855-8384cb32021a")
-		(property "Reference" "C18"
+		(property "Reference" "C20"
 			(at 107.95 132.08 90)
 			(effects
 				(font
@@ -8983,7 +8998,7 @@
 		(instances
 			(project "DMH_S_H_Noise_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
-					(reference "C18")
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -9355,7 +9370,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b899166b-7582-477c-984d-63fed8020900")
-		(property "Reference" "R30"
+		(property "Reference" "R35"
 			(at 158.75 146.05 90)
 			(effects
 				(font
@@ -9407,7 +9422,7 @@
 		(instances
 			(project "DMH_S_H_Noise_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
-					(reference "R30")
+					(reference "R35")
 					(unit 1)
 				)
 			)
@@ -9507,7 +9522,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ba4f04d7-b9ac-4fc2-9a45-bdddcb3f008c")
-		(property "Reference" "C11"
+		(property "Reference" "C13"
 			(at 185.42 57.15 90)
 			(effects
 				(font
@@ -9559,7 +9574,7 @@
 		(instances
 			(project "DMH_S_H_Noise_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
-					(reference "C11")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -9640,7 +9655,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bc058665-08a5-4597-9196-4a4571e8bdfb")
-		(property "Reference" "R24"
+		(property "Reference" "R29"
 			(at 143.51 184.15 90)
 			(effects
 				(font
@@ -9692,7 +9707,7 @@
 		(instances
 			(project "DMH_S_H_Noise_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
-					(reference "R24")
+					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -9708,7 +9723,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c30e0271-be2c-4dba-8f76-a2d6aa5855f2")
-		(property "Reference" "R17"
+		(property "Reference" "R22"
 			(at 69.85 184.15 90)
 			(effects
 				(font
@@ -9760,7 +9775,7 @@
 		(instances
 			(project "DMH_S_H_Noise_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
-					(reference "R17")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -9908,7 +9923,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c3f052ef-19bf-45dc-ba69-47ffcf6b6de2")
-		(property "Reference" "C13"
+		(property "Reference" "C15"
 			(at 38.1 170.18 90)
 			(effects
 				(font
@@ -9960,7 +9975,7 @@
 		(instances
 			(project "DMH_S_H_Noise_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
-					(reference "C13")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -9976,7 +9991,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c433fa89-187c-4cb4-b744-fb5a8be8d9a7")
-		(property "Reference" "R25"
+		(property "Reference" "R30"
 			(at 158.75 173.99 90)
 			(effects
 				(font
@@ -10028,7 +10043,7 @@
 		(instances
 			(project "DMH_S_H_Noise_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
-					(reference "R25")
+					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -10044,7 +10059,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c461a935-63ba-4ad4-95ed-4b21706cfaf2")
-		(property "Reference" "R9"
+		(property "Reference" "R12"
 			(at 135.89 107.95 90)
 			(effects
 				(font
@@ -10096,7 +10111,7 @@
 		(instances
 			(project "DMH_S_H_Noise_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
-					(reference "R9")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -10178,7 +10193,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c82028f2-697f-4f55-ac4e-be069854f9f7")
-		(property "Reference" "R12"
+		(property "Reference" "R16"
 			(at 219.71 52.07 90)
 			(effects
 				(font
@@ -10230,7 +10245,7 @@
 		(instances
 			(project "DMH_S_H_Noise_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
-					(reference "R12")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -10312,7 +10327,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cb84d565-5cfe-432f-b317-10e71938f515")
-		(property "Reference" "R10"
+		(property "Reference" "R13"
 			(at 151.13 107.95 90)
 			(effects
 				(font
@@ -10364,7 +10379,7 @@
 		(instances
 			(project "DMH_S_H_Noise_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
-					(reference "R10")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -10380,7 +10395,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cc70233a-33c4-43b4-95a4-243373029912")
-		(property "Reference" "D2"
+		(property "Reference" "D5"
 			(at 127 69.85 0)
 			(effects
 				(font
@@ -10450,7 +10465,7 @@
 		(instances
 			(project ""
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
-					(reference "D2")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -10578,7 +10593,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cf86b1cd-f84d-4d48-bcf6-c91445f4d114")
-		(property "Reference" "R38"
+		(property "Reference" "R8"
 			(at 83.82 139.7 90)
 			(effects
 				(font
@@ -10630,7 +10645,7 @@
 		(instances
 			(project "DMH_S_H_Noise_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
-					(reference "R38")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -10711,7 +10726,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d474b914-f7f2-418e-b141-1365f2305524")
-		(property "Reference" "R31"
+		(property "Reference" "R36"
 			(at 173.99 146.05 90)
 			(effects
 				(font
@@ -10763,7 +10778,7 @@
 		(instances
 			(project "DMH_S_H_Noise_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
-					(reference "R31")
+					(reference "R36")
 					(unit 1)
 				)
 			)
@@ -10957,7 +10972,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e1b0134f-f6a4-4281-a1e4-bde0efed11e8")
-		(property "Reference" "R2"
+		(property "Reference" "R1"
 			(at 44.45 25.4 90)
 			(effects
 				(font
@@ -10965,7 +10980,7 @@
 				)
 			)
 		)
-		(property "Value" "2k"
+		(property "Value" "2x2k"
 			(at 44.45 27.94 90)
 			(effects
 				(font
@@ -11017,7 +11032,7 @@
 		(instances
 			(project "DMH_S_H_Noise_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
-					(reference "R2")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -11032,7 +11047,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e33b5afe-e219-42f3-bcab-02f18d4099fd")
-		(property "Reference" "C14"
+		(property "Reference" "C16"
 			(at 87.63 171.45 90)
 			(effects
 				(font
@@ -11084,7 +11099,7 @@
 		(instances
 			(project "DMH_S_H_Noise_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
-					(reference "C14")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -11100,7 +11115,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e348ee09-6efd-4fb8-a11b-dc558ac9502b")
-		(property "Reference" "D3"
+		(property "Reference" "D6"
 			(at 167.64 63.4999 90)
 			(effects
 				(font
@@ -11172,7 +11187,7 @@
 		(instances
 			(project "DMH_S_H_Noise_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
-					(reference "D3")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -11397,7 +11412,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f201ad92-8010-4315-aaf3-8e12650d34df")
-		(property "Reference" "D6"
+		(property "Reference" "D4"
 			(at 58.4201 104.14 90)
 			(effects
 				(font
@@ -11469,7 +11484,7 @@
 		(instances
 			(project "DMH_S_H_Noise_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
-					(reference "D6")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -11565,7 +11580,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f6030a32-b807-4b1e-ba02-a3a7d97acbd5")
-		(property "Reference" "C16"
+		(property "Reference" "C18"
 			(at 113.03 171.45 90)
 			(effects
 				(font
@@ -11617,7 +11632,7 @@
 		(instances
 			(project "DMH_S_H_Noise_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
-					(reference "C16")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -11632,7 +11647,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f6f97927-0c7f-4841-9325-026481228982")
-		(property "Reference" "R11"
+		(property "Reference" "R15"
 			(at 149.86 53.34 90)
 			(effects
 				(font
@@ -11684,7 +11699,7 @@
 		(instances
 			(project "DMH_S_H_Noise_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
-					(reference "R11")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -11699,7 +11714,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fa844d37-0fb9-4cb3-9de7-fb486c9ffa85")
-		(property "Reference" "R37"
+		(property "Reference" "R6"
 			(at 38.1 120.65 90)
 			(effects
 				(font
@@ -11751,7 +11766,7 @@
 		(instances
 			(project "DMH_S_H_Noise_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
-					(reference "R37")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -11766,7 +11781,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fd823bd5-13ae-4f85-9346-37f043a3d4ab")
-		(property "Reference" "R21"
+		(property "Reference" "R26"
 			(at 101.6 184.15 90)
 			(effects
 				(font
@@ -11818,7 +11833,7 @@
 		(instances
 			(project "DMH_S_H_Noise_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
-					(reference "R21")
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -11945,7 +11960,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "feed6a9b-870b-4c95-ae70-99dd1c416018")
-		(property "Reference" "R13"
+		(property "Reference" "R17"
 			(at 262.89 80.01 90)
 			(effects
 				(font
@@ -11997,7 +12012,7 @@
 		(instances
 			(project "DMH_S_H_Noise_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/7ad2d702-dfb7-4d49-a82d-34430dd5948f"
-					(reference "R13")
+					(reference "R17")
 					(unit 1)
 				)
 			)

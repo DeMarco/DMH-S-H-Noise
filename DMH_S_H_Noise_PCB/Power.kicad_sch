@@ -3666,7 +3666,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6a790f82-cc63-4c97-9cb6-eb84abe002f9")
-		(property "Reference" "C20"
+		(property "Reference" "C9"
 			(at 118.11 106.6799 0)
 			(effects
 				(font
@@ -3720,7 +3720,7 @@
 		(instances
 			(project "DMH_S_H_Noise_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/0cdf34b2-39cd-4d9e-981a-97cd34791509"
-					(reference "C20")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -4004,7 +4004,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "afcc00aa-3a62-48c9-9a4f-17a08273dc96")
-		(property "Reference" "D5"
+		(property "Reference" "D2"
 			(at 113.3475 179.07 0)
 			(effects
 				(font
@@ -4056,7 +4056,7 @@
 		(instances
 			(project "DMH-Kosmo-5cm-PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/0cdf34b2-39cd-4d9e-981a-97cd34791509"
-					(reference "D5")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -4529,7 +4529,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f70180ef-3713-4ec0-a578-f9a1d1d49f3e")
-		(property "Reference" "C21"
+		(property "Reference" "C10"
 			(at 118.11 132.0799 0)
 			(effects
 				(font
@@ -4583,7 +4583,7 @@
 		(instances
 			(project "DMH_S_H_Noise_PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/0cdf34b2-39cd-4d9e-981a-97cd34791509"
-					(reference "C21")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -4599,7 +4599,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f739b540-f531-48c2-9da2-1846171734a1")
-		(property "Reference" "D4"
+		(property "Reference" "D1"
 			(at 112.7125 168.91 0)
 			(effects
 				(font
@@ -4651,7 +4651,7 @@
 		(instances
 			(project "DMH-Kosmo-5cm-PCB"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315/0cdf34b2-39cd-4d9e-981a-97cd34791509"
-					(reference "D4")
+					(reference "D1")
 					(unit 1)
 				)
 			)
