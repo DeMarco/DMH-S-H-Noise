@@ -10,107 +10,53 @@
 		(comment 1 "PCB for 5 cm Kosmo format synthesizer module")
 	)
 	(lib_symbols)
-	(sheet
-		(at 260.35 16.51)
-		(size 20.32 27.94)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "0cdf34b2-39cd-4d9e-981a-97cd34791509")
-		(property "Sheetname" "Power"
-			(at 260.35 15.7984 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "Power.kicad_sch"
-			(at 260.35 45.0346 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "Bus Gate" output
-			(at 260.35 25.4 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "35434339-bc2b-4868-9a18-95483283b276")
-		)
-		(pin "Bus CV" output
-			(at 260.35 34.29 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "0197176f-d754-4695-b74f-89d14faa0aea")
-		)
-		(instances
-			(project "DMH-Kosmo-5cm-PCB"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315"
-					(page "4")
-				)
-			)
-		)
+	(no_connect
+		(at 38.1 72.39)
+		(uuid "2062165e-87f0-4c25-a710-0015b6458977")
+	)
+	(no_connect
+		(at 38.1 106.68)
+		(uuid "23195c07-c4af-45b0-93bf-fb0b2af80164")
+	)
+	(no_connect
+		(at 38.1 76.2)
+		(uuid "2bf024f4-b9d1-4be8-9116-4b613f113a37")
+	)
+	(no_connect
+		(at 38.1 80.01)
+		(uuid "341ee75c-cb08-4099-b9d3-8580f415b4eb")
+	)
+	(no_connect
+		(at 38.1 95.25)
+		(uuid "39e905ec-0a97-43d0-b95d-b828958f458d")
+	)
+	(no_connect
+		(at 38.1 83.82)
+		(uuid "41a77b05-77fa-4802-bb14-96196b8f4e86")
+	)
+	(no_connect
+		(at 38.1 99.06)
+		(uuid "6a4dea23-1dcf-4fda-aa5f-3cd2e92bcded")
+	)
+	(no_connect
+		(at 38.1 87.63)
+		(uuid "85c3ac6e-f4be-4a83-bd68-92928242dd75")
+	)
+	(no_connect
+		(at 38.1 68.58)
+		(uuid "b7b9ed84-65f1-46fe-af46-bc9e7f57bf21")
+	)
+	(no_connect
+		(at 38.1 102.87)
+		(uuid "d4400ee6-bfc8-4cbf-b42d-da39f2d3f633")
+	)
+	(no_connect
+		(at 38.1 91.44)
+		(uuid "f55ce3bd-e3f7-4eaa-a4c2-696ee535d21a")
 	)
 	(sheet
-		(at 120.65 80.01)
-		(size 41.91 38.1)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "7ad2d702-dfb7-4d49-a82d-34430dd5948f")
-		(property "Sheetname" "Core Circuit"
-			(at 120.65 79.2984 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "Core_Circuit.kicad_sch"
-			(at 120.65 118.6946 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "DMH-Kosmo-5cm-PCB"
-				(path "/58f4306d-5387-4983-bb08-41a2313fd315"
-					(page "3")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 17.78 17.78)
-		(size 20.32 118.11)
+		(at 17.78 63.5)
+		(size 20.32 50.8)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -121,7 +67,7 @@
 		)
 		(uuid "ce3fef8b-9f1d-4178-b50b-4a046c030679")
 		(property "Sheetname" "Inputs and Outputs"
-			(at 17.78 17.0684 0)
+			(at 17.78 62.7884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -130,7 +76,7 @@
 			)
 		)
 		(property "Sheetfile" "Inputs_and_Outputs.kicad_sch"
-			(at 17.78 136.4746 0)
+			(at 17.78 114.8846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -139,8 +85,118 @@
 				(hide yes)
 			)
 		)
+		(pin "S&H" input
+			(at 38.1 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ab0db76d-3ca5-4085-9a34-5f46ad23d5d4")
+		)
+		(pin "Internal Clock" input
+			(at 38.1 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "0229f0c1-bf39-48fe-bde0-21b1c2c2d601")
+		)
+		(pin "External Clock" output
+			(at 38.1 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "3bb33539-2ec0-4741-8f89-7a76b0230d44")
+		)
+		(pin "Clock Out" input
+			(at 38.1 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "901e9fab-8cb3-475f-aa40-1d640994b138")
+		)
+		(pin "Slew In" output
+			(at 38.1 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "dd0f8374-c9ee-4d24-8934-c90e64f4beea")
+		)
+		(pin "Input" output
+			(at 38.1 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "915225bb-9c4a-4327-b20e-630228a64d28")
+		)
+		(pin "White" input
+			(at 38.1 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "75a50827-86b8-419b-9b84-ef48b784d610")
+		)
+		(pin "Slew Out" input
+			(at 38.1 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "34092999-04c5-4833-a2b6-216a8fe598db")
+		)
+		(pin "Pink" input
+			(at 38.1 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "0df9766e-b8b8-405f-a61e-37da81582fab")
+		)
+		(pin "Blue" input
+			(at 38.1 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7d229aca-d3b5-4a07-baab-e150bf8458ca")
+		)
+		(pin "S&H Out" input
+			(at 38.1 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "98cea8a8-b067-434a-a415-4507a0aad969")
+		)
 		(instances
-			(project "DMH-Kosmo-5cm-PCB"
+			(project "DMH_S_H_Noise_PCB_Conn"
 				(path "/58f4306d-5387-4983-bb08-41a2313fd315"
 					(page "2")
 				)
