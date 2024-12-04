@@ -90,7 +90,7 @@
 			(layerselection 0x00010fc_ffffffff)
 			(plot_on_all_layers_selection 0x0000000_00000000)
 			(disableapertmacros no)
-			(usegerberextensions no)
+			(usegerberextensions yes)
 			(usegerberattributes yes)
 			(usegerberadvancedattributes yes)
 			(creategerberjobfile yes)
@@ -116,12 +116,12 @@
 			(plotfptext yes)
 			(plotinvisibletext no)
 			(sketchpadsonfab no)
-			(subtractmaskfromsilk no)
+			(subtractmaskfromsilk yes)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "Gerbers/")
 		)
 	)
 	(net 0 "")
@@ -5966,7 +5966,7 @@
 		(descr "Through hole straight socket strip, 1x06, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
 		(tags "Through hole socket strip THT 1x06 2.54mm single row")
 		(property "Reference" "J50"
-			(at -2.1 -2.4 180)
+			(at -2.1 -0.15 180)
 			(layer "B.SilkS")
 			(uuid "37e7309a-99bd-4354-a630-1829c51a2b8e")
 			(effects
@@ -6310,7 +6310,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 2.5 0 90)
+			(at 2.95 0 90)
 			(layer "B.SilkS")
 			(uuid "749ca86c-19f3-4afe-81c1-4d0da8319ffc")
 			(effects
@@ -26780,8 +26780,8 @@
 		)
 	)
 	(gr_rect
-		(start 53.6 146.5)
-		(end 55.6 156.5)
+		(start 53.6 142.75)
+		(end 55.6 152.75)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -26953,8 +26953,8 @@
 		(layer "User.9")
 		(uuid "00a9661b-bc4e-493a-9a57-d5b24a34753b")
 	)
-	(gr_text "Mk1.0 - Month Year"
-		(at 52.1 151.25 -90)
+	(gr_text "Mk1.0 - December 2024"
+		(at 52.1 147.5 270)
 		(layer "B.SilkS")
 		(uuid "b8e4add2-3a99-4283-8ca5-566719c3b3b5")
 		(effects

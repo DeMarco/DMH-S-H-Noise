@@ -90,7 +90,7 @@
 			(layerselection 0x00010fc_ffffffff)
 			(plot_on_all_layers_selection 0x0000000_00000000)
 			(disableapertmacros no)
-			(usegerberextensions no)
+			(usegerberextensions yes)
 			(usegerberattributes yes)
 			(usegerberadvancedattributes yes)
 			(creategerberjobfile yes)
@@ -116,12 +116,12 @@
 			(plotfptext yes)
 			(plotinvisibletext no)
 			(sketchpadsonfab no)
-			(subtractmaskfromsilk no)
+			(subtractmaskfromsilk yes)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "Gerbers/")
 		)
 	)
 	(net 0 "")
@@ -1309,7 +1309,7 @@
 		(uuid "527873ba-20aa-4d8b-a123-8d33f86471ae")
 		(at 75 171.75 180)
 		(property "Reference" "J3"
-			(at -4.075 -7 360)
+			(at -4.075 -7 0)
 			(layer "F.SilkS")
 			(uuid "cd89ee3d-80e7-45ab-8838-ac09fdda94d7")
 			(effects
@@ -1320,7 +1320,7 @@
 			)
 		)
 		(property "Value" "TS_Jack_6.35mm_Sw"
-			(at 1.005 9.035 360)
+			(at 1.005 9.035 0)
 			(layer "F.Fab")
 			(uuid "95baf55e-a4ba-4178-8d16-ed4ebe08434c")
 			(effects
@@ -1696,7 +1696,7 @@
 		(uuid "5b8bfd4f-8228-4cc5-af3b-a9d2959594e0")
 		(at 75 208.75 180)
 		(property "Reference" "J8"
-			(at -4.075 -7 360)
+			(at -4.075 -7 0)
 			(layer "F.SilkS")
 			(uuid "8b4727c1-e3ba-4a8d-b96f-4e9f378eafc2")
 			(effects
@@ -1707,7 +1707,7 @@
 			)
 		)
 		(property "Value" "TS_Jack_6.35mm_Sw"
-			(at 1.005 9.035 360)
+			(at 1.005 9.035 0)
 			(layer "F.Fab")
 			(uuid "d89d1d42-65e9-48cf-ad41-007c4c56e61b")
 			(effects
@@ -1757,7 +1757,7 @@
 			)
 		)
 		(property "Function" "White"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.SilkS")
 			(uuid "78308e42-a046-434f-b24e-9cecf8c36da7")
 			(effects
@@ -2472,7 +2472,7 @@
 		(descr "Through hole straight pin header, 1x06, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x06 2.54mm single row")
 		(property "Reference" "J70"
-			(at 2.4 6.4 -180)
+			(at 2.4 6.4 180)
 			(layer "B.SilkS")
 			(uuid "3f3a4641-4fab-4e64-a7f1-c2f7d90bbbaa")
 			(effects
@@ -2702,7 +2702,7 @@
 			(uuid "109fedf0-5fa9-4efd-b29b-7f7f72564674")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 6.35 360)
+			(at 0 6.35 0)
 			(layer "F.Fab")
 			(uuid "345cb46f-f0be-49b0-8153-1746526d28a6")
 			(effects
@@ -2795,7 +2795,7 @@
 		(uuid "ac4e37aa-b04b-4284-a0e6-328140560cdc")
 		(at 75 190.25 180)
 		(property "Reference" "J4"
-			(at -4.075 -7 360)
+			(at -4.075 -7 0)
 			(layer "F.SilkS")
 			(uuid "04dddeeb-0c54-45a9-91e7-80ab781eee37")
 			(effects
@@ -2806,7 +2806,7 @@
 			)
 		)
 		(property "Value" "TS_Jack_6.35mm_Sw"
-			(at 1.005 9.035 360)
+			(at 1.005 9.035 0)
 			(layer "F.Fab")
 			(uuid "f92d1a03-9f8a-4464-b7b8-c2c15307609e")
 			(effects
@@ -2856,7 +2856,7 @@
 			)
 		)
 		(property "Function" "Clock Out"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.SilkS")
 			(uuid "a33b67a6-4111-43c3-a375-634f4747c812")
 			(effects
@@ -3184,7 +3184,7 @@
 		(descr "Through hole straight pin header, 1x06, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x06 2.54mm single row")
 		(property "Reference" "J50"
-			(at -2.4 6.4 -180)
+			(at -2.4 6.4 180)
 			(layer "B.SilkS")
 			(uuid "8016ea05-9381-46d9-b1e9-571ce02a813a")
 			(effects
@@ -3414,7 +3414,7 @@
 			(uuid "08ac6f52-85d2-4e76-b0a4-f1588368af7d")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 6.35 360)
+			(at 0 6.35 0)
 			(layer "F.Fab")
 			(uuid "1fc6d857-ce37-4a6c-9cec-3bea5425df65")
 			(effects
@@ -3896,7 +3896,7 @@
 		(descr "Through hole straight pin header, 1x06, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x06 2.54mm single row")
 		(property "Reference" "J60"
-			(at 2.4 6.35 -180)
+			(at 2.4 6.35 180)
 			(layer "B.SilkS")
 			(uuid "02538fda-4be1-4efb-acf0-64cf67692012")
 			(effects
@@ -4126,7 +4126,7 @@
 			(uuid "8bc297c3-ce57-4896-964f-298b6f9262fe")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 6.35 360)
+			(at 0 6.35 0)
 			(layer "F.Fab")
 			(uuid "5514de53-dc58-4150-895e-02a696ea2ea0")
 			(effects
@@ -4733,7 +4733,7 @@
 		(layer "User.9")
 		(uuid "00a9661b-bc4e-493a-9a57-d5b24a34753b")
 	)
-	(gr_text "Mk1.0 - Month Year"
+	(gr_text "Mk1.0 - December 2024"
 		(at 98 199.75 90)
 		(layer "B.SilkS")
 		(uuid "b8e4add2-3a99-4283-8ca5-566719c3b3b5")
